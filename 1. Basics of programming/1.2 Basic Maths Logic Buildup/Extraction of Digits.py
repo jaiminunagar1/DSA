@@ -1,4 +1,3 @@
-
 def extractiondigit(num:int):
 
     n=num    
