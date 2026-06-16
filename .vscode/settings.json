@@ -1,0 +1,6 @@
+{
+    // "editor.quickSuggestions": false,
+    // "editor.suggestOnTriggerCharacters": false,
+    // "editor.wordBasedSuggestions": "off",
+    "editor.inlineSuggest.enabled": false
+}
