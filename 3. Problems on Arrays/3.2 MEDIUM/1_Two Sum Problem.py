@@ -1,5 +1,4 @@
 def twosum1(nums:list,target:int)->list:
-    result = []
     n = len(nums)
 
     for i in range(0,n-1):
@@ -14,7 +13,6 @@ def twosum2(nums:list,target:int) ->list:
             # print(f"hash_map = {hash_map}")
             remaining = target-nums[i]
             if remaining in hash_map:
-                print(remaining)
                 return [hash_map[remaining],i]
             hash_map[nums[i]]=i
 
